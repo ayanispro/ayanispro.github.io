@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline:0;
+  border:0;
+  text-decoration: none;
+}
+body {
+  background: #F1F1F1;
+  font-family: "Nunito Sans";
+}
+header , #box, footer {
+  background:#fff;
+  width: 90vw;
+  margin: 2.5vw;
+  padding: 2.5vw;
+  font-family: "Raleway";
+  color: #00AFFF;
+  border-radius: 7.5px;
+}
+header input {
+  margin-top:5pt;
+  padding: 5pt;
+  width: 75vw;
+  font-family: "Raleway";
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+header button {
+  display: inline-block;
+  padding: 5.5pt;
+  text-align: center;
+  background: #fff;
+  color: #00AFFF;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  transition: 750ms;
+}
+#opts {
+  margin: 2.5vw;
+  padding: 2.5vw;
+  background: #fff;
+  display: flex;
+  flex-direction:row;
+  height: 33vh;
+}
+#opts div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1.5%;
+  margin:1.5%;
+  border-radius: 7.5px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 750ms;
+}
+.contests{
+  background: linear-gradient(#42EC83, #3AF7BE);
+}
+.topchart {
+  background: linear-gradient(#50A7F6, #00E2FA);
+}
+.premium {
+  background: linear-gradient(#F97B91, #FFE044);
+}
+.post {
+  width: 90vw;
+  border-radius:7.5px;
+}
+#btnholder {
+  padding: 7.5pt;
+  text-align: center;
+}
+#btnholder a {
+  display: inline-block;
+  padding: 5pt;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius:5px;
+  background: linear-gradient(90deg, #3CF5B2, #0DD9FA);
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.info {
+  margin-top: 5pt;
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  height: 17.5pt;
+  width: 17.5pt;
+  padding: 5pt;
+  border-radius:50%;
+}
+.infobox {
+  margin-top: 5pt;
+  font-family: "Nunito Sans";
+  color: #000;
+}
+.time {
+  font-size: 7.5pt;
+  opacity: 0.7;
+}
+.cont {
+  color: #FFC600;
+}
+
+.addbtn {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 30pt;
+  width: 30pt;
+  padding: 5pt;
+  text-decoration:none;
+  color: #fff;
+  background: #00AFFF;
+  border-radius:50%;
+  position: fixed;
+  bottom: 10pt;
+  right: 10pt;
+  font-size: 20pt;
+}
+.contests:hover {
+  filter: drop-shadow(0 0 0.75em #42EC83);
+  transition: 750ms;
+}
+.topchart:hover {
+  filter: drop-shadow(0 0 0.75em #37B9F7);
+  transition: 750ms;
+}
+.premium:hover {
+  filter: drop-shadow(0 0 0.75em #FCB167);
+  transition: 750ms;
+}
+header button:focus {
+  background: #00AFFF;
+  color: #fff;
+  transition: 750ms;
+}
