@@ -1,0 +1,68 @@
+@import "fonts/fonts.css";
+/*@import "libs/fontawesome-free-5.13.1-web/css/all.min.css";*/
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url('image/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15pt;
+  margin: 25pt;
+  border-radius: 5pt;
+  backdrop-filter: blur(4px);
+}
+i {
+  display: inline-block;
+  padding: 2.5pt;
+}
+.btn {
+  text-align: right;
+}
+.pfp {
+  text-align: center;
+}
+.pfp img {
+  height: 100pt;
+  width: 100pt;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.name {
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 3.5pt;
+  margin-bottom: 5pt;
+}
+.location {
+  margin: 7.5pt;
+}
+.quote {
+  margin: 7.5pt;
+}
+.social {
+  padding: 2.5pt;
+  text-align: center;
+}
+a {
+  color: #FFF;
+  display: block;
+  padding: 5pt;
+  margin: 5pt;
+  border: 1px solid #FFF;
+  border-radius: 2.5pt;
+}
